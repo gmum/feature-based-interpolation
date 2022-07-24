@@ -1,8 +1,8 @@
 # Feature-Based Interpolation in the Latent Space of Pre-Trained Generative Models - official  implementation
 
-## Example 1 - interpolation of point clouds
+## Example 1 - interpolation visualization in the space of measures between densities given as mixtures of Gaussian
 ```commandline
-python point_cloud_example.py
+python interpolation_visualization.py
 ```
 
 ## Example 2 - interpolation in latent space of generative model
