@@ -12,3 +12,7 @@ python main.py --favored_class 8
 ```
 
 You can also specify your generative model and classifier and swap `mnist_model.classifier_mnist` and `mnist_model.dcgan` for it.
+
+## Example 3 - search for geodesics on manifolds
+
+In script [geodesics_manifolds.ipynb](https://github.com/gmum/feature-based-interpolation), we present solutions to examples 1, 2, 3, and 4 from our paper.
