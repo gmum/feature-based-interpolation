@@ -15,4 +15,4 @@ You can also specify your generative model and classifier and swap `mnist_model.
 
 ## Example 3 - search for geodesics on manifolds
 
-In script [geodesics_manifolds.ipynb](https://github.com/gmum/feature-based-interpolation), we present solutions to examples 1, 2, 3, and 4 from our paper.
+In script [geodesics_manifolds.ipynb](https://github.com/gmum/feature-based-interpolation/blob/main/geodesics_manifolds.ipynb), we present solutions to examples 1, 2, 3, and 4 from our paper.
