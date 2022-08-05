@@ -1,4 +1,21 @@
-# Feature-Based Interpolation in the Latent Space of Pre-Trained Generative Models - official  implementation
+# Feature-Based Interpolation and Geodesics in the Latent Spaces of Generative Models
+
+Interpolating between points is a problem connected simultaneously with finding geodesics and study of generative models. In the case of geodesics, we search for the curves with shortest length, while in the case of generative models we typically apply linear interpolation in the latent space.
+However, this interpolation uses implicitly the fact that Gaussian is unimodal. Thus the problem of interpolating in the case when the latent density is non-Gaussian is an open problem.
+
+In this paper we present a general and unified approach to interpolation, which simultaneously allows to search for geodesics and interpolating curves in latent space in the case of arbitrary density.
+Our results have a strong theoretical background based on the introduced quality measure of an interpolating curve. In particular, we show that maximising the quality measure of the curve can be equivalently understood as a search of geodesic for a certain redefinition of the Riemannian metric on the space. 
+
+We provide examples in three important cases. First, we show that our approach can be easily applied to finding geodesics on manifolds. Next, 
+we focus our attention in finding interpolations in pre-trained generative models. We show that our model effectively works in the case of arbitrary density. Moreover, we can interpolate in the subset of the space consisting of data possessing a given feature. The last case is focused on finding interpolation in the space of chemical compounds.
+
+---
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
 
 ## Example 1 - interpolation visualization in the space of measures between densities given as mixtures of Gaussian
 ```commandline
